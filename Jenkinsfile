@@ -37,7 +37,7 @@ pipeline {
 			}
 		}
 
-		tage('Deploy'){
+		stage('Deploy'){
             agent {
                 docker {
 					image 'node:20-alpine'
